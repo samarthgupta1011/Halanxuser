@@ -30,11 +30,13 @@ public class SigninActivity extends AppCompatActivity{
     private ProgressBar progressBar;
     private TextView tv1;
     private Button btnLogin;
+    Button btn;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        btn = (Button) findViewById(R.id.lol);
 
         //Get Firebase auth instance
         auth = FirebaseAuth.getInstance();
@@ -111,6 +113,13 @@ public class SigninActivity extends AppCompatActivity{
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(SigninActivity.this,RegisterActivity.class));
+            }
+        });
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(SigninActivity.this, CalenderActivity.class));
             }
         });
     }

@@ -22,15 +22,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <meta-data
-                android:name="com.google.android.geo.API_KEY"
-                android:value="AIzaSyBIFiPq2L6TZ4wHvA3UrsKKRfEFRXS8W98" />
-        <activity android:name=".RegisterActivity" >
-        </activity>
-        <activity android:name=".MapsActivity">
-        </activity>
-        <activity android:name=".MainActivity">
-        </activity>
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBIFiPq2L6TZ4wHvA3UrsKKRfEFRXS8W98" />
+
+        <activity android:name=".RegisterActivity"></activity>
+        <activity android:name=".MapsActivity"></activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".CalenderActivity"></activity>
     </application>
 
 </manifest>

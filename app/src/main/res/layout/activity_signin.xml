@@ -90,6 +90,12 @@
             android:textColor="@color/colorPrimaryDark"
             android:id="@+id/signUp"/>
 
+        <Button
+            android:id="@+id/lol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="click"/>
+
 
 
     </RelativeLayout>
