@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "1022703278715",
+    "firebase_url": "https://shopperapphalanx.firebaseio.com",
+    "project_id": "shopperapphalanx",
+    "storage_bucket": "shopperapphalanx.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022703278715:android:6b89977da89b7e26",
+        "android_client_info": {
+          "package_name": "com.samarthgupta.shopperapphalanx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022703278715-3cmp3qsn0pjaqkc4u1nb3kfss8eh8v41.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.samarthgupta.shopperapphalanx",
+            "certificate_hash": "32BD86EF74D04B8BEA32B2D7895063F4E6367558"
+          }
+        },
+        {
+          "client_id": "1022703278715-uklh8samtaski1ncdbnqios1a1fobd6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUvuRnFQtjzG29GBADSUybqTOpn-WXKQI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022703278715-uklh8samtaski1ncdbnqios1a1fobd6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022703278715:android:05dc59eb252f633c",
+        "android_client_info": {
+          "package_name": "com.samarthgupta.userapphalanx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022703278715-11q8i9ub4mt4ej1v347cb04nr6vj10nb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.samarthgupta.userapphalanx",
+            "certificate_hash": "32BD86EF74D04B8BEA32B2D7895063F4E6367558"
+          }
+        },
+        {
+          "client_id": "1022703278715-uklh8samtaski1ncdbnqios1a1fobd6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUvuRnFQtjzG29GBADSUybqTOpn-WXKQI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022703278715-uklh8samtaski1ncdbnqios1a1fobd6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
