@@ -29,14 +29,13 @@ public class SigninActivity extends AppCompatActivity{
     private FirebaseAuth auth;
     private ProgressBar progressBar;
     private TextView tv1;
-    private Button btnLogin;
-    Button btn;
+    private Button btnLogin,btn;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        btn = (Button) findViewById(R.id.lol);
+
 
         //Get Firebase auth instance
         auth = FirebaseAuth.getInstance();
@@ -58,8 +57,15 @@ public class SigninActivity extends AppCompatActivity{
         inputPassword = (EditText) findViewById(R.id.password);
         progressBar = (ProgressBar) findViewById(R.id.login_progress);
         btnLogin = (Button) findViewById(R.id.email_sign_in_button);
+        btn = (Button) findViewById(R.id.lol);
         tv1=(TextView)findViewById(R.id.signUp);
 
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(SigninActivity.this, CalenderActivity.class));
+            }
+        });
 
         auth = FirebaseAuth.getInstance();
         btnLogin.setOnClickListener(new View.OnClickListener() {
@@ -116,11 +122,6 @@ public class SigninActivity extends AppCompatActivity{
             }
         });
 
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(SigninActivity.this, CalenderActivity.class));
-            }
-        });
+
     }
 }

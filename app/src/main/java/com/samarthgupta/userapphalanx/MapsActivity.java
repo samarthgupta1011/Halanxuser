@@ -74,7 +74,7 @@ public class MapsActivity extends AppCompatActivity implements
                   String status = bt1.getText().toString();
                 if(status.equals("GO ONLINE")) {
 
-                    mFragment.getMapAsync(MapsActivity.this);
+
                     pb1.setVisibility(View.VISIBLE);
                     bt1.setVisibility(View.INVISIBLE); }
 
